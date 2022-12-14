@@ -10,6 +10,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
+
+    <form>
+      <label for="ccname">Cardholder name</label>
+      <input type="text" name="ccname" id="ccname" placeholder="ccname" autocomplete="cc-name" />
+      <label for="cardnumber">Card number</label>
+      <input type="number" name="cardnumber" id="cardnumber" placeholder="cardnumber" autocomplete="cc-number" />
+      <label for="cvc">CVC</label>
+      <input type="number" name="cvc" id="cvc" placeholder="cvc" autocomplete="cc-csc"/>
+      <label for="cc-exp">Expiration date</label>
+      <input type="month" name="cc-exp" id="cc-exp" placeholder="cc-exp" autocomplete="cc-exp"/>
+
+    </form>
+
+
     <div class="main">
       <div class="emoji mb-6">💣🤯💥</div>
       <button class="button">Boom?</button>
